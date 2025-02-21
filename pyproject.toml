@@ -2,7 +2,7 @@
 name = "prabandh"
 version = "0.1.0"
 description = "A cloud synced, ai based file system management tool"
-authors = ["Aditya Jyoti aj.adityajyoti@gmail.com, Ankit Prasad ankitprasad2005@gmail.com"]
+authors = ["Aditya Jyoti <aj.adityajyoti@gmail.com>, Ankit Prasad <ankitprasad2005@gmail.com>"]
 license = ""
 readme = "README.md"
 
@@ -14,3 +14,6 @@ uuid = "^1.30"
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+start = "prabandh.__main__:main"

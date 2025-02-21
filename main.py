@@ -69,6 +69,8 @@ def run_indexer(directory: str = "") -> None:
         print(f"Unexpected error: {e}", file=sys.stderr)
         sys.exit(1)
 
+def sync_cache(cache_path: str = "/home/aditya/.cache/prabandh_cache.csv") -> None:
+    
 
 def main():
     # Create argument parser

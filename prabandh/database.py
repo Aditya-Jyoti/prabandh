@@ -42,3 +42,7 @@ class Database:
 
     def get_database(self) -> Connection:
         return self.database
+
+    def close_connection(self) -> None:
+        self.cursor.close()
+        self.database.close()
